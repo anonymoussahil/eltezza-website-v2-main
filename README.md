@@ -1,8 +1,4 @@
-A creative agency website built with [Next.js](https://nextjs.org/) and [Framer Motion](https://www.framer.com/motion/).
 
-<p>
-
-<p>
 
 [Technologies](#-technologies) •
 [Website](#-website) •
@@ -41,7 +37,7 @@ A creative agency website built with [Next.js](https://nextjs.org/) and [Framer 
 
 ## ✨ Website
 
-You can visit [Keyon-Media.com](https://www.Keyon-Media.com/) to see the website.
+You can visit [eltezza.com](https://www.eltezza.com/) to see the website. credits to owner
 
 ## 🧩 Features
 
