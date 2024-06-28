@@ -49,8 +49,8 @@ export default function PagePortal({
         exit={{ opacity: 0 }}
       >
         <Image
-          src="/images/eltezza-home-logo.png"
-          alt="Eltezza"
+          src="/images/keyon-media-home-logo.png"
+          alt="Keyon-Media"
           width={124}
           height={20}
         />

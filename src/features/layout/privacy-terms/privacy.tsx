@@ -13,8 +13,8 @@ export function Privacy() {
       <div className={styles.logoContainer}>
         <Link href="/">
           <Image
-            src="/images/eltezza-home-logo.png"
-            alt="Eltezza"
+            src="/images/keyon-media-home-logo.png"
+            alt="Keyon-Media"
             width={131}
             height={22}
             className={styles.logo}
@@ -131,7 +131,7 @@ export function Privacy() {
           <h2 className={styles.subTitle}>{privacyPolicy.contact.title}</h2>
           <p>{privacyPolicy.contact.subTitle}</p>
           <br />
-          <h3>Eltezza</h3>
+          <h3>Keyon-Media</h3>
           <div>
             Email:{" "}
             <a className={styles.link} href={`mailto:${contactFormText.email}`}>
