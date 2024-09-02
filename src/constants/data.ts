@@ -654,28 +654,28 @@ export const testimonialsData = [
   {
     id: "3",
     review:
-      "Highly recommend this team of young professionals. You can tell they put their heart and passion into their work - it is just quality. They hit deadlines, communication is very efficient and prompt. Keyon-Media is extremely responsive to feedback and they go above and beyond to deliver value.",
+      "Highly recommend this team of young professionals. You can tell they put their heart and passion into their work - it is just quality. They hit deadlines, communication is very efficient and prompt. Eltezza is extremely responsive to feedback and they go above and beyond to deliver value.",
     name: "Keonimana Shigematsu",
     role: "Director of IKAIKA",
   },
   {
     id: "4",
     review:
-      "We are thankful for the splendid content, amazing brand identity, and beautifully interactive website. Keyon-Media has been with us since day one and we continue to find use for their services on an ongoing basis for video ad campaigns. They truly served all our creative needs. Highly Recommended!",
+      "We are thankful for the splendid content, amazing brand identity, and beautifully interactive website. Eltezza has been with us since day one and we continue to find use for their services on an ongoing basis for video ad campaigns. They truly served all our creative needs. Highly Recommended!",
     name: "Aden Fareh",
     role: "Public Relations at Cutly",
   },
   {
     id: "5",
     review:
-      "Great company to deal with. Made everything easy to understand, and worked with us around our busy schedule. Always bright, bubbly, friendly, and willing to lend a hand if we got stuck. Not to mention that they customized our website to develop something that truly reflected what we wanted for our business. We have no hesitations in recommending Keyon-Media.",
+      "Great company to deal with. Made everything easy to understand, and worked with us around our busy schedule. Always bright, bubbly, friendly, and willing to lend a hand if we got stuck. Not to mention that they customized our website to develop something that truly reflected what we wanted for our business. We have no hesitations in recommending Eltezza.",
     name: "Sean Cupples",
     role: "Director of Cupples Construction",
   },
   {
     id: "6",
     review:
-      "We engaged Keyon-Media for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
+      "We engaged Eltezza for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
     name: "Arielle Thomas",
     role: "CinemaThom",
   },
@@ -691,7 +691,7 @@ export const featuredReviewData = {
   } satisfies FeaturedReviewData,
   creative: {
     review:
-      "We engaged Keyon-Media for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
+      "We engaged Eltezza for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
     name: "Arielle Thomas, CinemaThom",
     src: distributionName + "/Creative/Feat_Review/Arielle_hwmabn.png",
   } satisfies FeaturedReviewData,
@@ -855,7 +855,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Creative Director",
-      email: "teneza@Keyon-Media.com",
+      email: "teneza@eltezza.com",
     },
     {
       id: "2",
@@ -866,7 +866,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
       position: "Managing Director",
-      email: "eltayeb@Keyon-Media.com",
+      email: "eltayeb@eltezza.com",
     },
     {
       id: "3",
@@ -877,7 +877,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
       position: "Account Manager",
-      email: "chhetri@Keyon-Media.com",
+      email: "chhetri@eltezza.com",
     },
     {
       id: "4",
@@ -888,7 +888,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
       position: "Business Strategist",
-      email: "herrera@Keyon-Media.com",
+      email: "herrera@eltezza.com",
     },
     {
       id: "5",
@@ -899,7 +899,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715732923/EZ%20Website%20-%20Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
       position: "Content Producer",
-      email: "hickton@Keyon-Media.com",
+      email: "hickton@eltezza.com",
     },
     {
       id: "6",
@@ -910,7 +910,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715919824/EZ%20Website%20-%20Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
       position: "Web Developer",
-      email: "carlsson@Keyon-Media.com",
+      email: "carlsson@eltezza.com",
     },
     {
       id: "7",
@@ -921,7 +921,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709619/EZ%20Website%20-%20Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
       position: "Visual Designer",
-      email: "gillanders@Keyon-Media.com",
+      email: "gillanders@eltezza.com",
     },
     {
       id: "8",
@@ -954,7 +954,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Creative Director",
-      email: "teneza@Keyon-Media.com",
+      email: "teneza@eltezza.com",
     },
     {
       id: "2",
@@ -965,7 +965,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
       position: "Managing Director",
-      email: "eltayeb@Keyon-Media.com",
+      email: "eltayeb@eltezza.com",
     },
     {
       id: "3",
@@ -976,7 +976,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
       position: "Account Manager",
-      email: "chhetri@Keyon-Media.com",
+      email: "chhetri@eltezza.com",
     },
     {
       id: "4",
@@ -987,7 +987,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
       position: "Business Strategist",
-      email: "herrera@Keyon-Media.com",
+      email: "herrera@eltezza.com",
     },
     {
       id: "5",
@@ -1119,11 +1119,10 @@ export const btsData = {
     {
       id: "14",
       src:
-        distributionName +
-        "/Design/BTS/_What_do_we_do_at_Keyon-Media__hiejen.jpg",
+        distributionName + "/Design/BTS/_What_do_we_do_at_Eltezza__hiejen.jpg",
       placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_15/v1712183893/EZ%20Website%20-%20Design/BTS/Photos/_What_do_we_do_at_Keyon-Media__hiejen.jpg",
-      alt: "What do we do at Keyon-Media?",
+        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_15/v1712183893/EZ%20Website%20-%20Design/BTS/Photos/_What_do_we_do_at_Eltezza__hiejen.jpg",
+      alt: "What do we do at Eltezza?",
       isVideo: false,
     },
   ] satisfies Array<BtsData>,

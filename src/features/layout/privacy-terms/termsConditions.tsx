@@ -13,8 +13,8 @@ export function TermsConditions() {
       <div className={styles.logoContainer}>
         <Link href="/">
           <Image
-            src="/images/keyon-media-home-logo.png"
-            alt="Keyon-Media"
+            src="/images/eltezza-home-logo.png"
+            alt="Eltezza"
             width={131}
             height={22}
             className={styles.logo}
@@ -123,7 +123,7 @@ export function TermsConditions() {
           </h2>
           <p>{termsAndConditions.contact.subTitle}</p>
           <br />
-          <h3>Keyon-Media</h3>
+          <h3>Eltezza</h3>
           <div>
             Email:{" "}
             <a className={styles.link} href={`mailto:${contactFormText.email}`}>

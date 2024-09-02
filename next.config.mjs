@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    outputFileTracing: true,
-  },
   output: "standalone",
   images: {
     remotePatterns: [

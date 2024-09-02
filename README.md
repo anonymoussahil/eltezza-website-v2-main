@@ -1,4 +1,8 @@
+A creative agency website built with [Next.js](https://nextjs.org/) and [Framer Motion](https://www.framer.com/motion/).
 
+<p>
+
+<p>
 
 [Technologies](#-technologies) •
 [Website](#-website) •
@@ -25,19 +29,19 @@
 
 <h1>Landing Page</h1>
 
-![Landing](https://d5st4psppqx3d.cloudfront.net/misc/Keyon-Media_landingPage_screenrecording.webp)
+![Landing](https://d5st4psppqx3d.cloudfront.net/misc/eltezza_landingPage_screenrecording.webp)
 
 <h1>Design Page</h1>
 
-![Design](https://d5st4psppqx3d.cloudfront.net/misc/Keyon-Media_design_screenrecording.webp)
+![Design](https://d5st4psppqx3d.cloudfront.net/misc/eltezza_design_screenrecording.webp)
 
 <h1>Creative Page</h1>
 
-![Creative](https://d5st4psppqx3d.cloudfront.net/misc/Keyon-Media_creative_screenrecording.webp)
+![Creative](https://d5st4psppqx3d.cloudfront.net/misc/eltezza_creative_screenrecording.webp)
 
 ## ✨ Website
 
-You can visit [eltezza.com](https://www.eltezza.com/) to see the website. credits to owner
+You can visit [eltezza.com](https://www.eltezza.com/) to see the website.
 
 ## 🧩 Features
 

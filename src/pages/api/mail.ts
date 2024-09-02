@@ -30,8 +30,8 @@ export default async function handler(
   `;
 
     const data = {
-      to: "Keyon-Media.ltd@gmail.com",
-      from: "hello@Keyon-Media.com",
+      to: "eltezza.ltd@gmail.com",
+      from: "hello@eltezza.com",
       subject: `[CONTACT FORM]: ${body.subject}`,
       text: message,
       html: message.replace(/\r\n/g, "<br>"),
