@@ -19,7 +19,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install",
-    
     "chromatic": "npx chromatic --project-token=chpt_768291d16afc6c8"
   },
   "engines": {
@@ -29,6 +28,7 @@
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "@sendgrid/mail": "^8.1.3",
+    "@vercel/analytics": "^1.5.0",
     "classnames": "^2.5.1",
     "cross-spawn": "^7.0.6",
     "debounce": "^2.1.0",
