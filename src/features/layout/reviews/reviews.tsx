@@ -57,7 +57,7 @@ export function Reviews({ content, page }: ReviewsProps) {
     return (
       <section id="reviews" className={styles.reviews}>
         <h1 className={classNames(styles.reviewsTitle, "largeText")}>
-          Hear it from our <span className="textGradient">partners</span>
+          Hear It From Our <span className="textGradient">Clients</span>
         </h1>
         <Swiper
           slidesPerView={3}

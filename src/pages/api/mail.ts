@@ -1,14 +1,10 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
-import mail from "@sendgrid/mail";
+import nodemailer from "nodemailer";
 
 type Data = {
-  name: string;
+  success?: boolean;
+  error?: string;
 };
-
-mail.setApiKey(
-  process.env.SENDGRID_API_KEY ? process.env.SENDGRID_API_KEY : "",
-);
 
 export const config = {
   api: {
@@ -20,30 +16,45 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
 ) {
-  try {
-    const body = await JSON.parse(req.body);
-    const message = `
-  Name: ${body.fullName}\r\n
-  Email: ${body.email}\r\n
-  Subject: ${body.subject}\r\n
-  Message: ${body.message}\r\n
-  `;
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method Not Allowed" });
+  }
 
-    const data = {
-      to: "eltezza.ltd@gmail.com",
-      from: "hello@eltezza.com",
-      subject: `[CONTACT FORM]: ${body.subject}`,
+  try {
+    const body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
+
+    const message = `
+      Name: ${body.fullName}\r\n
+      Email: ${body.email}\r\n
+      Subject: ${body.subject}\r\n
+      Message: ${body.message}\r\n
+    `;
+
+    // Configure your SMTP transporter
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com", // SMTP server
+      port: 465,
+      secure: true, // use SSL
+      auth: {
+        user: "sagarsoni2409@gmail.com", // Replace with your SMTP email
+        pass: "mjyq nzhz smsf ezmq",  // Replace with your SMTP password
+      },
+    });
+
+    // Email options
+    const mailOptions = {
+      from: "sagarsoni2409@gmail.com", // Replace with your SMTP email
+      to: "keyonpublicity@gmail.com", // recipient email
+      subject: `Key On Website [CONTACT FORM]: ${body.subject}`,
       text: message,
       html: message.replace(/\r\n/g, "<br>"),
     };
 
-    await mail.send(data);
+    await transporter.sendMail(mailOptions);
 
-    // @ts-expect-error Error is unknown
-    return res.status(200).json({ error: "" });
-  } catch (error) {
-    console.log(error);
-    // @ts-expect-error Just for the error checking
-    return res.status(500).json({ error: error.message });
+    return res.status(200).json({ success: true });
+  } catch (error: any) {
+    console.error("Email sending error:", error);
+    return res.status(500).json({ error: error.message || "Internal Server Error" });
   }
 }

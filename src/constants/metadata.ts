@@ -1,48 +1,55 @@
 // METADATA
 
-const distributionName = "https://d5st4psppqx3d.cloudfront.net";
+const distributionName = "./images/";
 
 export const metaData = {
   design: {
-    title: "Eltezza | Design",
+    title: "KeyOn Media Private Limited",
     description:
-      "Welcome to Eltezza: home to two distinct yet intertwined identities. Our studio creates captivating narratives, while our agency arm delivers tangible results, shaping the future of brand engagement.",
-    link: "https://eltezza.com/design",
+      "Welcome to KeyOn Media Private Limited – where creativity meets results. Located at B-006 Kinzah Apartment, Behind Raj Atlantis, Kanakia Road, Mira Road (East) 401107. Contact us at 9920992393 / 9769987612 or 022-35980639, email keyonpublicity@gmail.com.",
+    link: "/",
     image: distributionName + "/riseabovethenoise_ffeyu4.jpg",
   },
   creative: {
-    title: "Eltezza | Creative",
+    title: "KeyOn Media Private Limited | Creative",
     description:
-      "Welcome to Eltezza: home to two distinct yet intertwined identities. Our studio creates captivating narratives, while our agency arm delivers tangible results, shaping the future of brand engagement.",
-    link: "https://eltezza.com/creative",
+      "Explore the creative side of KeyOn Media Private Limited. We craft captivating narratives and deliver tangible results. For inquiries, call 9920992393 / 9769987612.",
+    link: "https://keyonmedia.com/creative",
     image: distributionName + "/riseabovethenoise_ffeyu4.jpg",
   },
   home: {
-    title: "Eltezza | Rise above the noise",
+    title: "KeyOn Media Private Limited | Rise Above The Noise",
     description:
-      "Welcome to Eltezza: home to two distinct yet intertwined identities. Our studio creates captivating narratives, while our agency arm delivers tangible results, shaping the future of brand engagement.",
-    link: "https://eltezza.com/",
+      "Welcome to KeyOn Media Private Limited – a place where innovation meets impact. Based at B-006 Kinzah Apartment, Behind Raj Atlantis, Kanakia Road, Mira Road (East) 401107.",
+    link: "https://keyonmedia.com/",
     image: distributionName + "/riseabovethenoise_ffeyu4.jpg",
   },
   privacy: {
-    title: "Privacy Policy | Eltezza",
+    title: "Privacy Policy | KeyOn Media Private Limited",
     description:
-      "Privacy Policy at Eltezza. We are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information in accordance with New Zealand's Privacy Act 2020.",
-    link: "https://eltezza.com/privacy-policy",
+      "Privacy Policy of KeyOn Media Private Limited. We are committed to protecting your privacy. For inquiries, email keyonpublicity@gmail.com or call 022-35980639.",
+    link: "https://keyonmedia.com/privacy-policy",
     image: distributionName + "/riseabovethenoise_ffeyu4.jpg",
   },
   termsConditions: {
-    title: "Terms & Conditions | Eltezza",
+    title: "Terms & Conditions | KeyOn Media Private Limited",
     description:
-      "Terms and conditons for Eltezza. These Terms and Conditions govern your use of our website and services. By accessing or using our website and services, you agree to comply with and be bound by these Terms.",
-    link: "https://eltezza.com/terms-and-conditons",
+      "Terms and Conditions for KeyOn Media Private Limited. By using our website and services, you agree to our policies. For details, please contact keyonpublicity@gmail.com.",
+    link: "https://keyonmedia.com/terms-and-conditions",
     image: distributionName + "/riseabovethenoise_ffeyu4.jpg",
   },
   error: {
-    title: "Page Not Found | Eltezza",
+    title: "Page Not Found | KeyOn Media Private Limited",
     description:
-      "Welcome to Eltezza: home to two distinct yet intertwined identities. Our studio creates captivating narratives, while our agency arm delivers tangible results, shaping the future of brand engagement.",
-    link: "https://eltezza.com/",
+      "The page you are looking for doesn't exist. Please visit our homepage or contact KeyOn Media Private Limited for assistance.",
+    link: "https://keyonmedia.com/",
     image: distributionName + "/riseabovethenoise_ffeyu4.jpg",
+  },
+  contact: {
+    address:
+      "B-006 Kinzah Apartment, Behind Raj Atlantis, Kanakia Road, Mira Road (East) 401107",
+    phone: ["9920992393", "9769987612"],
+    telephone: "022-35980639",
+    email: "keyonpublicity@gmail.com",
   },
 };

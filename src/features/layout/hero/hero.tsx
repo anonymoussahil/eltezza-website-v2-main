@@ -15,9 +15,7 @@ export function Hero({ page, description, tags }: HeroProps) {
     <div className={styles.heroContent}>
       {/* HEADING */}
       <div className={styles.heroHeadingContainer}>
-        <h1 className={styles.heroHeading}>RISE ABOVE</h1>
-        <h1 className={styles.heroHeading}>
-          THE{" "}
+        <h1 className={styles.heroHeading}> 
           <span
             className={styles.headingGradient}
             style={{
@@ -25,8 +23,10 @@ export function Hero({ page, description, tags }: HeroProps) {
                 page === "design" ? "var(--ez-orange)" : "var(--adobe-purple)",
             }}
           >
-            NOISE
-          </span>
+            ADVERTISE
+          </span></h1>
+        <h1 className={styles.heroHeading}>
+          ANYTHING{" "}          
         </h1>
       </div>
       {/* DESCRIPTION */}

@@ -6,6 +6,8 @@ export default function Document() {
       <Head />
       <body>
         <Main />
+        <div id="contact-root"></div>
+        <div id="video-root"></div>
         <NextScript />
       </body>
     </Html>

@@ -1,11 +1,11 @@
+/* eslint-disable */
 import Image from "next/image";
 import styles from "./header.module.scss";
-import { Switch } from "@/features/ui";
 import Link from "next/link";
 
 interface HeaderProps {
-  page: "design" | "creative";
-  color: "--ez-orange" | "--adobe-purple";
+  page: "design";
+  color: "--ez-orange";
 }
 
 export function Header({ page, color }: HeaderProps) {
@@ -13,14 +13,13 @@ export function Header({ page, color }: HeaderProps) {
     <header className={styles.header}>
       <Link href="/">
         <Image
-          src="/images/eltezza-home-logo.png"
-          alt="Eltezza"
-          width={131}
-          height={22}
+          src="/images/Logos/Keyon_Media_Logo.png"
+          alt="Keyon Media Private Limited"
+          width={230}
+          height={80}
           className={styles.headerLogo}
         />
       </Link>
-      <Switch page={page} color={color} />
     </header>
   );
 }

@@ -15,10 +15,10 @@ export function Contact({ text, onOpen, isOpen }: ContactProps) {
       <div className={styles.purpleOrb} />
       <div className={styles.contactContainer}>
         <Image
-          src="/images/eltezza-home-logo.png"
-          alt="Eltezza"
-          width={133}
-          height={22}
+          src="/images/Logos/Keyon_Media_Logo.png"
+          alt="Keyon Media Private Limited"
+          width={230}
+          height={80}
           className={styles.logo}
         />
         <div>

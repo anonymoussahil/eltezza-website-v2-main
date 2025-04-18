@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BtsData, CarouselData, MetaDataType } from "./types";
 import Head from "next/head";
 import useWindowSize from "./hooks/useWindowSize";
+import { useRouter } from "next/router";
+
+declare global {
+  interface Window {
+    dataLayer: any[];
+  }
+}
 
 interface MetaDataProps {
   data: MetaDataType;
   favIconColor?: "purple" | "orange";
   imageData?: Array<BtsData | CarouselData>;
   scroll?: boolean;
+  googleAnalyticsId?: "G-6N8ZGJT2LM"; // Add your Google Analytics ID here
 }
 
 export default function MetaData({
@@ -15,8 +23,38 @@ export default function MetaData({
   favIconColor = "orange",
   imageData,
   scroll = true,
+  googleAnalyticsId,
 }: MetaDataProps) {
   const [windowWidth] = useWindowSize();
+  const router = useRouter();
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`;
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(p0: string, p1: string | Date | undefined, p2: object ) {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date(),{});
+    gtag("config", googleAnalyticsId, {
+      page_path: router.pathname,
+    });
+
+    const handleRouteChange = (url: URL) => {
+      gtag("config", googleAnalyticsId, {
+        page_path: url,
+      });
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [googleAnalyticsId, router.events, router.pathname]);
+
   return (
     <Head>
       <title>{data.title}</title>
@@ -37,42 +75,32 @@ export default function MetaData({
         sizes="16x16"
         href={`favicon-${favIconColor}/favicon-16x16.png`}
       />
-      <link
-        rel="manifest"
-        href={`favicon-${favIconColor}/site.webmanifest`}
-      ></link>
+      <link rel="manifest" href={`favicon-${favIconColor}/site.webmanifest`} />
       {!scroll && (
-        <style>{`body { overflow-y: ${windowWidth <= 1200 ? "scroll" : "hidden"}; }`}</style>
+        <style>{`body { overflow-y: ${
+          windowWidth <= 1200 ? "scroll" : "hidden"
+        }; }`}</style>
       )}
       {imageData &&
-        imageData.map((item) => {
-          if (!item.isVideo) {
-            return (
-              <link key={item.id} rel="preload" as="image" href={item.src} />
-            );
-          } else {
-            return (
-              <link key={item.id} rel="preload" as="video" href={item.src} />
-            );
-          }
-        })}
+        imageData.map((item) =>
+          !item.isVideo ? (
+            <link key={item.id} rel="preload" as="image" href={item.src} />
+          ) : (
+            <link key={item.id} rel="preload" as="video" href={item.src} />
+          ),
+        )}
       <meta property="og:title" content={data.title} key="title" />
       <meta name="description" content={data.description} key="description" />
-      {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={data.link} />
       <meta property="og:title" content={data.title} />
       <meta property="og:description" content={data.description} />
       <meta property="og:image" content={data.image} />
-
-      {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={data.link} />
       <meta property="twitter:title" content={data.title} />
       <meta property="twitter:description" content={data.description} />
       <meta property="twitter:image" content={data.image} />
-
-      {/* Meta Tags Generated with https://metatags.io */}
     </Head>
   );
 }

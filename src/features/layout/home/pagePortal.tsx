@@ -49,10 +49,11 @@ export default function PagePortal({
         exit={{ opacity: 0 }}
       >
         <Image
-          src="/images/eltezza-home-logo.png"
-          alt="Eltezza"
-          width={124}
-          height={20}
+          src="/images/Logos/Keyon_Media_Logo.png"
+          alt="Keyon Media Private Limited"
+          width={230}
+          height={80}
+          
         />
         <h1 className={styles.title}>{title}</h1>
       </motion.div>

@@ -9,19 +9,19 @@ export default function Layout({ children }: { children: ReactNode }) {
 
   return (
     <>
-      {router.pathname === "/creative" || router.pathname === "/design" ? (
+      { (
         <>
           <div id="contact-root" />
           <div id="video-root" />
           <Header
-            page={router.pathname === "/design" ? "design" : "creative"}
+            page={"design" }
             color={
-              router.pathname === "/design" ? "--ez-orange" : "--adobe-purple"
+               "--ez-orange" 
             }
           />
           <Navbar />
         </>
-      ) : null}
+      ) }
       <AnimatePresence mode="wait">
         <motion.div
           key={router.route}

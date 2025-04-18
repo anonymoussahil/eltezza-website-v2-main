@@ -49,6 +49,7 @@ export default function DesignPage() {
   }, []);
 
   function onOpen() {
+    console.log("opened")
     setShowModal(true);
   }
   function onClose() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./privacyTerms.module.scss";
-import { contactFormText, termsAndConditions } from "@/constants";
+import { CompanyName, contactFormText, termsAndConditions } from "@/constants";
 import { useIsPresent, motion } from "framer-motion";
 import { useRouter } from "next/router";
 import Image from "next/image";
@@ -13,10 +13,10 @@ export function TermsConditions() {
       <div className={styles.logoContainer}>
         <Link href="/">
           <Image
-            src="/images/eltezza-home-logo.png"
-            alt="Eltezza"
-            width={131}
-            height={22}
+            src="/images/Logos/Keyon_Media_Logo.png"
+            alt="Keyon Media Private Limited"
+            width={230}
+            height={80}
             className={styles.logo}
           />
         </Link>
@@ -123,7 +123,7 @@ export function TermsConditions() {
           </h2>
           <p>{termsAndConditions.contact.subTitle}</p>
           <br />
-          <h3>Eltezza</h3>
+          <h3>{CompanyName}</h3>
           <div>
             Email:{" "}
             <a className={styles.link} href={`mailto:${contactFormText.email}`}>

@@ -10,69 +10,43 @@ import {
   TestimonialsData,
 } from "@/types";
 
-const distributionName = "https://d5st4psppqx3d.cloudfront.net";
+const distributionName = "/images/";
 
 // HOME PAGE DATA
 export const landingPageData = {
   design: [
     {
       id: "1",
-      src: distributionName + "/Landing+Page/Design/cupples_website_ladznn.jpg",
-      badge: "Web Design",
+      src: distributionName + "Brandwork/coffee.png",
+      badge: "Social Media",
       isVideo: false,
     },
     {
-      id: "2",
-      src: distributionName + "/Landing+Page/Design/3_dISH_1_tp0sxi.mp4",
-      thumbnail:
-        distributionName + "/Landing+Page/Design/3_dISH_1_tp0sxi_THUMBNAIL.jpg",
+      id: "2", // Updated duplicate from "1" to "2"
+      src: distributionName + "Brandwork/restaurant.mp4",
       badge: "Reels",
+      thumbnail:
+        distributionName +
+        "/Landing+Page/Design/Ikaika_Motivational_Reel_k6l7dy_THUMBNAIL.jpg",
       isVideo: true,
     },
     {
       id: "3",
       src:
         distributionName +
-        "/Landing+Page/Design/black_pearl_branding_ypwjz5.jpg",
-      badge: "Branding",
+        "Brandwork/mac.png",
+      badge: "Brand Mockups",
       isVideo: false,
     },
     {
       id: "4",
       src:
         distributionName +
-        "/Landing+Page/Design/Ikaika_Motivational_Reel_k6l7dy.mp4",
-      thumbnail:
-        distributionName +
-        "/Landing+Page/Design/Ikaika_Motivational_Reel_k6l7dy_THUMBNAIL.jpg",
-      badge: "Reels",
-      isVideo: true,
-    },
-    {
-      id: "5",
-      src:
-        distributionName + "/Landing+Page/Design/peak_performance_sgqk8g.jpg",
-      badge: "Social Media",
+        "Brandwork/carousel.png",
+      badge: "Brand Mockups",
       isVideo: false,
-    },
-    {
-      id: "6",
-      src:
-        distributionName + "/Landing+Page/Design/Shareable_Giveaway_hiz45d.jpg",
-      badge: "Social Media",
-      isVideo: false,
-    },
-    {
-      id: "7",
-      src:
-        distributionName +
-        "/Landing+Page/Design/Oreo_Reel_super_final_rlocdk.mp4",
-      thumbnail:
-        distributionName +
-        "/Landing+Page/Design/Oreo_Reel_super_final_rlocdk_THUMBNAIL.jpg",
-      badge: "Reels",
-      isVideo: true,
-    },
+    }
+    
   ] as Array<CarouselData>,
   creative: [
     {
@@ -201,188 +175,193 @@ export const landingPageData = {
 
 // DESIGN PAGE DATA
 export const designMarqueeLeftData = [
+  // Re-assigned sequential ids 1 to 15
   {
     id: "1",
-    src: distributionName + "/Design/Marquee+Left/peak_performance_sgqk8g.jpg",
-    alt: "Peak Performance",
+    src: distributionName + "Work/001.png",
+    badge: "Furniture",
     isVideo: false,
   },
   {
     id: "2",
-    src: distributionName + "/Design/Marquee+Left/lokl_gym_branding_b0kavo.jpg",
-    alt: "LOKL Gym",
+    src: distributionName + "Work/002.png",
+    badge: "Real Estate",
     isVideo: false,
   },
   {
     id: "3",
-    src:
-      distributionName + "/Design/Marquee+Left/phillipines_website_o0zb9x.jpg",
-    alt: "Philippines Travel Website",
+    src: distributionName + "Work/003.png",
+    badge: "FMCG",
     isVideo: false,
   },
   {
     id: "4",
-    src: distributionName + "/Design/Marquee+Left/flanzy_branding_tkpepz.jpg",
-    alt: "Flanzy Branding",
+    src: distributionName + "Work/seerat.mp4",
+    badge: "Fashion",
+    isVideo: true,
+    alt: "Seerat Fashion Store",
+    thumbnail: distributionName + "Work/seerat.png", 
+  },   
+  {
+    id: "5",
+    src: distributionName + "Work/1.jpeg",
+    badge: "Travel",
     isVideo: false,
   },
+  {
+    id: "6",
+    src: distributionName + "Work/2.jpeg",
+    badge: "Travel",
+    isVideo: false,
+  },
+  {
+    id: "7",
+    src: distributionName + "Work/3.jpeg",
+    badge: "Travel",
+    isVideo: false,
+  },
+  {
+    id: "8",
+    src: distributionName + "Work/10.jpeg",
+    badge: "Travel",
+    isVideo: false,
+  },
+  {
+    id: "9",
+    src: distributionName + "Work/11.jpeg",
+    badge: "Travel",
+    isVideo: false,
+  },
+  {
+    id: "10",
+    src: distributionName + "Work/4.jpeg",
+    badge: "Real Estate",
+    isVideo: false,
+  },
+  {
+    id: "11",
+    src: distributionName + "Work/5.jpeg",
+    badge: "Real Estate",
+    isVideo: false,
+  },
+  {
+    id: "12",
+    src: distributionName + "Work/6.jpeg",
+    badge: "Real Estate",
+    isVideo: false,
+  },
+  {
+    id: "13",
+    src: distributionName + "Work/7.jpeg",
+    badge: "Real Estate",
+    isVideo: false,
+  },
+  {
+    id: "14",
+    src: distributionName + "Work/8.jpeg",
+    badge: "Real Estate",
+    isVideo: false,
+  },
+  {
+    id: "15",
+    src: distributionName + "Work/9.jpeg",
+    badge: "Real Estate",
+    isVideo: false,
+  }  
 ] satisfies Array<CarouselData>;
 
 export const designMarqueeRightData = [
+  // Re-assigned sequential ids 1 to 5
   {
     id: "1",
-    src:
-      distributionName + "/Design/Marquee+Right/fire_social_media_r3lqkm.jpg",
-    alt: "Fire social media",
+    src: distributionName + "Work/Education/2.png",
+    badge: "Education",
     isVideo: false,
   },
   {
     id: "2",
-    src:
-      distributionName +
-      "/Design/Marquee+Right/Tonkotsu_Ramen_on_Fire_Reel_mpqmrp.mp4",
-    thumbnail:
-      distributionName +
-      "/Design/Marquee+Right/Tonkotsu_Ramen_on_Fire_Reel_mpqmrp_THUMBNAIL.jpg",
-    alt: "Tonkotsu Ramen on Fire Reel",
-    isVideo: true,
+    src: distributionName + "Work/001.png",
+    badge: "Furniture",
+    isVideo: false,
   },
   {
     id: "3",
-    src:
-      distributionName +
-      "/Design/Marquee+Right/black_pearl_social_media_oi1slb.jpg",
-    alt: "Black Pearl social media",
+    src: distributionName + "Work/002.png",
+    badge: "Real Estate",
     isVideo: false,
   },
   {
     id: "4",
-    src:
-      distributionName +
-      "/Design/Marquee+Right/What_they_know_about_steves_reel_ifxohz.mp4",
-    thumbnail:
-      distributionName +
-      "/Design/Marquee+Right/What_they_know_about_steves_reel_ifxohz_THUMBNAIL.jpg",
-    alt: "What they know about steves reel",
-    isVideo: true,
+    src: distributionName + "Work/003.png",
+    badge: "FMCG",
+    isVideo: false,
   },
   {
     id: "5",
-    src:
-      distributionName +
-      "/Design/Marquee+Right/Ikaika_Motivational_Reel_k6l7dy.mp4",
+    src: distributionName + "Work/seerat.mp4",
+    badge: "Fashion",
+    isVideo: true,
+    alt: "Seerat Fashion Store",
     thumbnail:
       distributionName +
-      "/Design/Marquee+Right/Ikaika_Motivational_Reel_k6l7dy_THUMBNAIL.jpg",
-    alt: "Ikaika Motivational Reel",
-    isVideo: true,
-  },
+      "Work/seerat.png"  
+  }  
 ] satisfies Array<CarouselData>;
 
 export const designCarouselData = [
   {
     id: "1",
-    src: distributionName + "/Design/Work/edmund_website_gdnyzr.jpg",
-    alt: "Edmund Website",
-    badge: "Web Design",
+    src: distributionName + "Brandwork/coffee.png",
+    badge: "Social Media",
+    alt: "Coffee Ad by KeyOn Media",
     isVideo: false,
   },
   {
     id: "2",
-    src: distributionName + "/Design/Work/phillipines_website_o0zb9x.jpg",
-    alt: "Philippines Travel Website",
-    badge: "Web Design",
-    isVideo: false,
-  },
-  {
-    id: "3",
-    src: distributionName + "/Design/Work/Ikaika_Motivational_Reel_k6l7dy.mp4",
+    src: distributionName + "Brandwork/restaurant.mp4",
+    badge: "Reels",
+    alt: "Restaurant Ad by KeyOn Media",
     thumbnail:
       distributionName +
-      "/Design/Work/Ikaika_Motivational_Reel_k6l7dy_THUMBNAIL.jpg",
-    alt: "Ikaika Motivational Reel",
-    badge: "Reels",
+      "Brandwork/restaurant.png",
     isVideo: true,
   },
   {
+    id: "3",
+    alt: "Mockup Ads byKeyOn Media",
+    src:
+      distributionName +
+      "Brandwork/mac.jpg",
+    badge: "Brand Mockups",
+    isVideo: false,
+  },
+  {
     id: "4",
-    src: distributionName + "/Design/Work/black_pearl_branding_ypwjz5.jpg",
-    alt: "Black Pearl Cafe Branding",
-    badge: "Branding",
+    alt: "Mockup Ads by KeyOn Media",
+    src:
+      distributionName +
+      "Brandwork/skincare.png",
+    badge: "Social Media",
     isVideo: false,
   },
   {
     id: "5",
-    src: distributionName + "/Design/Work/uptania_branding_pvkykm.jpg",
-    alt: "Uptania Branding",
-    badge: "Branding",
+    alt: "Mockup Ads by KeyOn Media",
+    src:
+      distributionName +
+      "Brandwork/carousel.jpg",
+    badge: "Brand Mockups",
     isVideo: false,
   },
   {
     id: "6",
-    src: distributionName + "/Design/Work/Oreo_Reel_super_final_rlocdk.mp4",
-    thumbnail:
-      distributionName +
-      "/Design/Work/Oreo_Reel_super_final_rlocdk_THUMBNAIL.jpg",
-    alt: "Oreo Reel",
-    badge: "Reels",
-    isVideo: true,
-  },
-  {
-    id: "7",
-    src: distributionName + "/Design/Work/steves_black_sox_bpz5uv.jpg",
-    alt: "Steve's Tyre Service",
-    badge: "Social Media",
-    isVideo: false,
-  },
-  {
-    id: "8",
-    src: distributionName + "/Design/Work/3_dISH_1_tp0sxi.mp4",
-    thumbnail: distributionName + "/Design/Work/3_dISH_1_tp0sxi_THUMBNAIL.jpg",
-    alt: "3 Dish",
-    badge: "Reels",
-    isVideo: true,
-  },
-  {
-    id: "9",
-    src: distributionName + "/Design/Work/peak_performance_sgqk8g.jpg",
-    alt: "Peak Performance",
-    badge: "Social Media",
-    isVideo: false,
-  },
-  {
-    id: "10",
+    alt: "Mockup Ads by KeyOn Media",
     src:
       distributionName +
-      "/Design/Work/What_they_know_about_steves_reel_ifxohz.mp4",
-    thumbnail:
-      distributionName +
-      "/Design/Work/What_they_know_about_steves_reel_ifxohz_THUMBNAIL.jpg",
-    alt: "What they know about Steve's Reel",
-    badge: "Reels",
-    isVideo: true,
-  },
-  {
-    id: "11",
-    src: distributionName + "/Design/Work/Good_earth_tours_Branding_zjlxmz.jpg",
-    alt: "Good Earth Tours Branding",
-    badge: "Branding",
+      "Brandwork/newspaper.jpg",
+    badge: "Brand Mockups",
     isVideo: false,
-  },
-  {
-    id: "12",
-    src: distributionName + "/Design/Work/black_pearl_social_media_oi1slb.jpg",
-    alt: "Black Pearl Social Media",
-    badge: "Social Media",
-    isVideo: false,
-  },
-  {
-    id: "13",
-    src: distributionName + "/Design/Work/Shareable_Giveaway_hiz45d.jpg",
-    alt: "Black Pearl Shareable Giveaway",
-    badge: "Social Media",
-    isVideo: false,
-  },
+  }
 ] satisfies Array<CarouselData>;
 
 // CREATIVE PAGE DATA
@@ -637,47 +616,49 @@ export const creativeWorkData = [
 ] satisfies Array<CreativeWorkData>;
 
 export const testimonialsData = [
+  // Modern Furnitures Reviews for KeyOn Media Digital Services
   {
     id: "1",
     review:
-      "Their professionalism and caring attitude really fits into our core values at Steve's, and they have become an awesome fit for us. They have truly gone above and beyond when it comes to promoting our brand and working with us, to ensure that we push out great content.They have enabled our brand over social media to reach heights that we thought were unachievable.",
-    name: "Steven Deans",
-    role: "Owner of Steve's Tyre Service & Auto Care",
+      "I recently collaborated with KeyOn Media for our digital overhaul, and their expertise in website design and social media strategy is simply remarkable, yaar. Our online presence has been completely transformed.",
+    name: "Rajesh Kumar",
+    role: "Owner, Modern Furnitures",
   },
   {
     id: "2",
     review:
-      "Excellent team to deal with. They have collaborated with us on a lot of aspects including social media, ads, and a fresh re-brand, this has enabled us to become more recognizable as we aim to further expand to new locations. Most importantly they enjoy what they do.",
-    name: "Paul Leang",
-    role: "Director of Formosa Pacific Limited",
+      "KeyOn Media has redefined our digital strategy. Their team is highly responsive and innovative, ensuring every detail aligns perfectly with our brand. The new website and targeted social campaigns have driven impressive results.",
+    name: "Suman Devi",
+    role: "Marketing Head, Modern Furnitures",
   },
   {
     id: "3",
     review:
-      "Highly recommend this team of young professionals. You can tell they put their heart and passion into their work - it is just quality. They hit deadlines, communication is very efficient and prompt. Eltezza is extremely responsive to feedback and they go above and beyond to deliver value.",
-    name: "Keonimana Shigematsu",
-    role: "Director of IKAIKA",
+      "Working with KeyOn Media was an absolute pleasure. Their digital services—from creative content to effective online marketing—ensured our message reached the right audience. Absolutely recommended!",
+    name: "Amit Sharma",
+    role: "Business Development Manager, Modern Furnitures",
   },
+  // Seerat NX Fashion Reviews for KeyOn Media Digital Services
   {
     id: "4",
     review:
-      "We are thankful for the splendid content, amazing brand identity, and beautifully interactive website. Eltezza has been with us since day one and we continue to find use for their services on an ongoing basis for video ad campaigns. They truly served all our creative needs. Highly Recommended!",
-    name: "Aden Fareh",
-    role: "Public Relations at Cutly",
+      "KeyOn Media provided an excellent digital makeover for Seerat NX Fashion. The revamped website is sleek and user-friendly, and our social media engagement has seen a significant boost.",
+    name: "Priya Singh",
+    role: "Creative Director, Seerat NX Fashion",
   },
   {
     id: "5",
     review:
-      "Great company to deal with. Made everything easy to understand, and worked with us around our busy schedule. Always bright, bubbly, friendly, and willing to lend a hand if we got stuck. Not to mention that they customized our website to develop something that truly reflected what we wanted for our business. We have no hesitations in recommending Eltezza.",
-    name: "Sean Cupples",
-    role: "Director of Cupples Construction",
+      "We are extremely satisfied with KeyOn Media's digital services. Their innovative approach and attention to detail have elevated our brand’s online presence. Truly a game changer for our business!",
+    name: "Anil Verma",
+    role: "Brand Manager, Seerat NX Fashion",
   },
   {
     id: "6",
     review:
-      "We engaged Eltezza for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
-    name: "Arielle Thomas",
-    role: "CinemaThom",
+      "From strategy to execution, KeyOn Media delivered exceptional digital solutions for our fashion brand. Their commitment and expertise are evident in every aspect of their work. Excellent service, indeed!",
+    name: "Neha Mehta",
+    role: "Digital Marketing Lead, Seerat NX Fashion",
   },
 ] satisfies Array<TestimonialsData>;
 
@@ -685,9 +666,9 @@ export const testimonialsData = [
 export const featuredReviewData = {
   design: {
     review:
-      "Excellent team to deal with. They have collaborated with us on a lot of aspects including social media, ads, and a fresh re-brand, this has enabled us to become more recognizable as we aim to further expand to new locations. Most importantly they enjoy what they do.",
-    name: "Paul Leang, Director of Formosa Pacific Limited",
-    src: distributionName + "/Design/Feat_Review/Paul_fbfqqr.png",
+      "Keyon Media's strategic approach to our digital and print campaigns significantly boosted our brand visibility. Their understanding of the real estate market and ability to create compelling visuals for our projects was exceptional.",
+    name: "Surya Joshi, Director, Royale Kotak",
+    src: distributionName + "Brandwork/director.jpeg",
   } satisfies FeaturedReviewData,
   creative: {
     review:
@@ -700,147 +681,138 @@ export const featuredReviewData = {
 export const brandsData = {
   design: [
     {
-      id: "1",
-      brand: "Kmart",
-      src: "/images/brandImages/Kmart_Australia_logo.svg",
+      "id": "1",
+      "brand": "Bank Edge",
+      "src": "/images/BrandLogo/Bank_Edge.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "2",
-      brand: "Cutly",
-      src: "/images/brandImages/Cutly_logo.svg",
-      maxWidth: 110,
-      width: "85%",
+      "id": "2",
+      "brand": "Bharat Co-operative Bank",
+      "src": "/images/BrandLogo/Bharat_Bank.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "3",
-      brand: "Juluwarlu",
-      src: "/images/brandImages/Juluwarlu_logo.svg",
-      maxWidth: 137,
-      width: "95%",
+      "id": "3",
+      "brand": "Cat King",
+      "src": "/images/BrandLogo/Catking.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "4",
-      brand: "Illuminix",
-      src: "/images/brandImages/Illuminix_logo.svg",
-      maxWidth: 145,
-      width: "118%",
+      "id": "4",
+      "brand": "Cheeliza",
+      "src": "/images/BrandLogo/cheeliza.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "5",
-      brand: "Cupples Construction",
-      src: "/images/brandImages/Cupples_logo.svg",
-      maxWidth: 93,
-      width: "73%",
+      "id": "5",
+      "brand": "Club Mahindra",
+      "src": "/images/BrandLogo/Club_Mahindra.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "6",
-      brand: "Auckland Museum",
-      src: "/images/brandImages/AM_logo.svg",
-      maxWidth: 130,
-      width: "105%",
+      "id": "6",
+      "brand": "Cushman & Wakefield",
+      "src": "/images/BrandLogo/Cushman.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "7",
-      brand: "Black Pearl Cafe",
-      src: "/images/brandImages/BlackPearl_logo.svg",
+      "id": "8",
+      "brand": "Eagle Home",
+      "src": "/images/BrandLogo/Eagle_Home.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "8",
-      brand: "Bee+",
-      src: "/images/brandImages/Bee_logo.svg",
-      maxWidth: 91,
-      width: "75%",
+      "id": "9",
+      "brand": "Honda BigWing",
+      "src": "/images/BrandLogo/Honda.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "9",
-      brand: "Constructo",
-      src: "/images/brandImages/Constructo_logo.svg",
-      maxWidth: 93,
-      width: "80%",
+      "id": "10",
+      "brand": "IDBI Bank",
+      "src": "/images/BrandLogo/IDBI_Bank.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "10",
-      brand: "Ikaika",
-      src: "/images/brandImages/Ikaika_logo.svg",
-      maxWidth: 150,
-      width: "123%",
+      "id": "11",
+      "brand": "IFBI",
+      "src": "/images/BrandLogo/IFBI.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "11",
-      brand: "Steve's Tyre Service",
-      src: "/images/brandImages/Steves_logo.svg",
-      maxWidth: 131,
-      width: "106%",
+      "id": "12",
+      "brand": "Kotak Builders",
+      "src": "/images/BrandLogo/Kotak_Builders.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "12",
-      brand: "Robert Embroideries",
-      src: "/images/brandImages/Robert_logo.svg",
-      maxWidth: 90,
-      width: "75%",
-    },
-  ] satisfies Array<BrandsData>,
-
-  creative: [
-    {
-      id: "1",
-      brand: "Kmart",
-      src: "/images/brandImages/Kmart_Australia_logo.svg",
+      "id": "13",
+      "brand": "M.K. Ghare",
+      "src": "/images/BrandLogo/M_K_Ghare.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "2",
-      brand: "PEAQ",
-      src: "/images/brandImages/Peaq_logo.svg",
-      maxWidth: 110,
-      width: "83%",
+      "id": "14",
+      "brand": "Mirchi & Mime",
+      "src": "/images/BrandLogo/Mirchi_Mime.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "3",
-      brand: "Nibblish",
-      src: "/images/brandImages/Nibblish_logo.svg",
-      maxWidth: 116,
-      width: "95%",
+      "id": "15",
+      "brand": "National",
+      "src": "/images/BrandLogo/National.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "4",
-      brand: "Greenhill Seltzers",
-      src: "/images/brandImages/Greenhill_logo.svg",
-      maxWidth: 125,
+      "id": "16",
+      "brand": "NIIT",
+      "src": "/images/BrandLogo/NIIT.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "5",
-      brand: "EatKinda",
-      src: "/images/brandImages/EatKinda_logo.svg",
-      maxWidth: 123,
-      width: "93%",
+      "id": "17",
+      "brand": "Northern Travels",
+      "src": "/images/BrandLogo/Northern.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "6",
-      brand: "Black Pearl Cafe",
-      src: "/images/brandImages/BlackPearl_logo.svg",
-      maxWidth: 127,
+      "id": "18",
+      "brand": "Saraswati College of Engineering",
+      "src": "/images/BrandLogo/Sarasvati.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
     {
-      id: "7",
-      brand: "Rinse",
-      src: "/images/brandImages/Rinse_logo.svg",
-      maxWidth: 112,
-      width: "88%",
+      "id": "19",
+      "brand": "Smith & Nephew",
+      "src": "/images/BrandLogo/Smith_N_Nephew.png",
+      "maxWidth": 250,
+      "width": "100%"
     },
-    {
-      id: "8",
-      brand: "Goju",
-      src: "/images/brandImages/Goju_logo.svg",
-      maxWidth: 72,
-      width: "55%",
-    },
-    {
-      id: "9",
-      brand: "Remarkable Cream",
-      src: "/images/brandImages/RemarkableCream_logo.svg",
-      maxWidth: 129,
-      width: "105%",
-    },
+      {
+      "id": "21",
+      "brand": "Thakur",
+      "src": "/images/BrandLogo/Thakur.png",
+      "maxWidth": 250,
+      "width": "100%"
+    }
   ] satisfies Array<BrandsData>,
 };
 
@@ -848,101 +820,41 @@ export const teamData = {
   design: [
     {
       id: "1",
-      name: "Chris Teneza",
-      src:
-        distributionName +
-        "/Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
+      name: "Mrs. Kavisha Nigudkar",
+      src:"/images/Team/kavisha.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
-      position: "Creative Director",
-      email: "teneza@eltezza.com",
+      position: "Director",
+     // email: "teneza@eltezza.com",
     },
     {
       id: "2",
-      name: "Mo Eltayeb",
-      src:
-        distributionName +
-        "/Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
+      name: "Mr. Sudhir Nigudkar",
+      src: "/images/Team/Sudhirnigudkar.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
       position: "Managing Director",
-      email: "eltayeb@eltezza.com",
+     // email: "eltayeb@eltezza.com",
     },
     {
       id: "3",
-      name: "Pradeep Chhetri",
-      src:
-        distributionName +
-        "/Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
+      name: "Mr. Prashant Chalke",
+      src:  "/images/Team/prashantchalke.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
-      position: "Account Manager",
-      email: "chhetri@eltezza.com",
+      position: "Marketing Head",
+     // email: "chhetri@eltezza.com",
     },
     {
       id: "4",
-      name: "Danilo Herrera",
-      src:
-        distributionName +
-        "/Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
+      name: "Mrs. Pranali Thakur",
+      src: "/images/Team/pranalithakur.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
-      position: "Business Strategist",
-      email: "herrera@eltezza.com",
+      position: "Media Manager",
+      //email: "herrera@eltezza.com",
     },
-    {
-      id: "5",
-      name: "Elisa Hickton",
-      src:
-        distributionName +
-        "/Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715732923/EZ%20Website%20-%20Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
-      position: "Content Producer",
-      email: "hickton@eltezza.com",
-    },
-    {
-      id: "6",
-      name: "Todd Carlsson",
-      src:
-        distributionName +
-        "/Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715919824/EZ%20Website%20-%20Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
-      position: "Web Developer",
-      email: "carlsson@eltezza.com",
-    },
-    {
-      id: "7",
-      name: "Shay Gillanders",
-      src:
-        distributionName +
-        "/Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709619/EZ%20Website%20-%20Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
-      position: "Visual Designer",
-      email: "gillanders@eltezza.com",
-    },
-    {
-      id: "8",
-      name: "Aileen Banzagales",
-      src:
-        distributionName +
-        "/Design/Team/Aileen+Banzagales+-+Graphic+Designer.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1713243560/EZ%20Website%20-%20Design/Team/Aileen_Banzagles_-_Graphic_Designer_oompl5.jpg",
-      position: "Graphic Designer",
-    },
-    {
-      id: "9",
-      name: "Jimwell Manlusoc",
-      src:
-        distributionName +
-        "/Design/Team/Jimwell_Manlusoc_-_UI_UX_Designer_adui9h.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1713331347/EZ%20Website%20-%20Design/Team/Jimwell_Manlusoc_-_UI_UX_Designer_adui9h.jpg",
-      position: "UI/UX Designer",
-    },
+   
   ] satisfies Array<TeamData>,
   creative: [
     {
@@ -1017,114 +929,28 @@ export const btsData = {
     {
       id: "1",
       src:
-        distributionName +
-        "/Design/BTS/Sharing_our_experience_with_amazing_uni_students_dewbey.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712186772/EZ%20Website%20-%20Design/BTS/Photos/Sharing_our_experience_with_amazing_uni_students_dewbey.jpg",
-      alt: "Sharing our experience with amazing uni students!",
+        distributionName + "/BrandWork/team2.png",
+      placeholder: distributionName + "/BrandWork/team2.png",
+      alt: "Team Posing for a collaboration",
       isVideo: false,
     },
     {
       id: "2",
-      src: distributionName + "/Design/BTS/IMG_4369_dpuon2.mp4",
-      alt: "Chris filming food",
-      isVideo: true,
+      src:
+        distributionName + "/BrandWork/team1.jpg",
+      placeholder: distributionName + "/BrandWork/team1.jpg",
+      alt: "Team discussion for a strategy",
+      isVideo: false,
     },
     {
       id: "3",
       src:
-        distributionName +
-        "/Design/BTS/Meeting_with_an_industry_veteran_dfxypu.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712186669/EZ%20Website%20-%20Design/BTS/Photos/Meeting_with_an_industry_veteran_dfxypu.jpg",
-      alt: "Meeting with an industry veteran",
+        distributionName + "/BrandWork/team3.png",
+      placeholder: distributionName + "/BrandWork/team3.png",
+      alt: "Team identifying challenges",
       isVideo: false,
     },
-    {
-      id: "4",
-      src: distributionName + "/Design/BTS/IMG_4320_qlu2jw.mp4",
-      alt: "Chris trying to use chopsticks",
-      isVideo: true,
-    },
-    {
-      id: "5",
-      src:
-        distributionName +
-        "/Design/BTS/Invited_to_be_part_of_a_panel_for_design_students_yiivm9.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712186802/EZ%20Website%20-%20Design/BTS/Photos/Invited_to_be_part_of_a_panel_for_design_students_yiivm9.jpg",
-      alt: "Invited to be part of a panel for design students",
-      isVideo: false,
-    },
-    {
-      id: "6",
-      src: distributionName + "/Design/BTS/IMG_0188_s6xzvp.mp4",
-      alt: "Behind the scenes at Steve's Tyre Service",
-      isVideo: true,
-    },
-    {
-      id: "7",
-      src: distributionName + "/Design/BTS/In_the_zone_ockvgx.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712186637/EZ%20Website%20-%20Design/BTS/Photos/In_the_zone_ockvgx.jpg",
-      alt: "In the zone",
-      isVideo: false,
-    },
-    {
-      id: "8",
-      src: distributionName + "/Design/BTS/IMG_4587_uwiyp8.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_15/v1712186745/EZ%20Website%20-%20Design/BTS/Photos/IMG_4587_uwiyp8.jpg",
-      alt: "Thumbs up!",
-      isVideo: false,
-    },
-    {
-      id: "9",
-      src: distributionName + "/Design/BTS/IMG_3768_wtjkw3.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712186598/EZ%20Website%20-%20Design/BTS/Photos/IMG_3768_wtjkw3.jpg",
-      alt: "Working in the office",
-      isVideo: false,
-    },
-    {
-      id: "10",
-      src: distributionName + "/Design/BTS/IMG_0181_ukibqj.mp4",
-      alt: "Behind the scenes at Steve's Tyre Service",
-      isVideo: true,
-    },
-    {
-      id: "11",
-      src: distributionName + "/Design/BTS/IMG_3648_sxvsam.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712186558/EZ%20Website%20-%20Design/BTS/Photos/IMG_3648_sxvsam.jpg",
-      alt: "Photoshoot time!",
-      isVideo: false,
-    },
-    {
-      id: "12",
-      src: distributionName + "/Design/BTS/IMG_0221_mo4hz0.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712183912/EZ%20Website%20-%20Design/BTS/Photos/IMG_0221_mo4hz0.jpg",
-      alt: "Client meeting with Mo and Chris",
-      isVideo: false,
-    },
-    {
-      id: "13",
-      src: distributionName + "/Design/BTS/Client_Meeting_gvffpg.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_17/v1712183905/EZ%20Website%20-%20Design/BTS/Photos/Client_Meeting_gvffpg.jpg",
-      alt: "Client meeting with Danilo and Mo",
-      isVideo: false,
-    },
-    {
-      id: "14",
-      src:
-        distributionName + "/Design/BTS/_What_do_we_do_at_Eltezza__hiejen.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_15/v1712183893/EZ%20Website%20-%20Design/BTS/Photos/_What_do_we_do_at_Eltezza__hiejen.jpg",
-      alt: "What do we do at Eltezza?",
-      isVideo: false,
-    },
+    
   ] satisfies Array<BtsData>,
   creative: [
     {

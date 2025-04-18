@@ -47,12 +47,12 @@ export const navigationLinks = {
     },
   ],
 };
-
+export const CompanyName= "KeyOn Media Private Limited";
 export const headerDescription = {
   design:
-    "An innovative creative powerhouse, based in a dynamic studio. We craft stories that resonate positively in our culture spanning every social channel - from user-centric web experiences to bite-sized content and beyond.",
+    "At KeyOn Media Private Limited, we specialize in redefining advertising. From strategic campaigns to innovative content creation, we ensure your brand's message reaches the right audience through every possible channel. Whether it's user-focused web experiences, social media engagement, or impactful storytelling, we deliver advertising solutions that make a lasting impression.",
   creative:
-    "Enter Eltezza Creative, where we're not just content creators; we're storytellers crafting authentic, scroll-stopping content. Collaborating with amazing brands, our space thrives on genuine creativity and remarkable results.",
+    "Enter KeyOn Media Creative, where we're not just content creators; we're storytellers crafting authentic, scroll-stopping content. Collaborating with amazing brands, our space thrives on genuine creativity and remarkable results.",
 };
 
 export const services = {
@@ -82,7 +82,7 @@ export const services = {
       id: "4",
       title: "GRAPHIC DESIGN",
       description:
-        "Our designs at Eltezza are not just visually pleasing; they're strategically crafted to meet your objectives. We work hand in hand with you to create attention-grabbing assets that get your message across effectively.",
+        "Our designs at KeyOn Media are not just visually pleasing; they're strategically crafted to meet your objectives. We work hand in hand with you to create attention-grabbing assets that get your message across effectively.",
       wrap: false,
     },
     {
@@ -172,55 +172,53 @@ export const ourProcess = {
 
 export const teamDescription = {
   design:
-    "At Eltezza, a united and passionate team works tirelessly to transform challenges into opportunities and ideas into innovation, ensuring every client's purpose is not just met but exceeded",
+    "At KeyOn Media Private Limited, a united and passionate team works tirelessly to transform challenges into opportunities and ideas into innovation, ensuring every client's purpose is not just met but exceeded.",
   creative:
-    "Get acquainted with the team pulling the strings behind the mess and outrageous rigs...",
+    "Get acquainted with the team pulling the strings behind the scenes, dedicated to delivering remarkable creative solutions.",
 };
 
 export const faqs = {
   design: [
     {
       id: "1",
-      title: "How do I request a quote or estimate for a project?",
+      title: "How do I initiate a project with KeyOn Media Private Limited?",
       description:
-        "Quite simply, scroll to the bottom of our site and submit your request!",
+        "Simply fill out our online request form or reach out via email/phone to schedule an initial consultation. We value your time and ensure a prompt response.",
       wrap: false,
     },
     {
       id: "2",
-      title: "What industries does your agency specialize in?",
+      title: "What industries do you cater to?",
       description:
-        "We've worked with many different clients, ranging from construction all the way to museums. If we are a good fit, no creative endeavor is beyond our capabilities.",
+        "We work with a diverse range of industries including FMCG, technology, entertainment, and more. Our digital media strategies are tailored to meet the unique needs of every sector.",
       wrap: false,
     },
     {
       id: "3",
-      title: "What is the typical timeline for project completion?",
+      title: "How long does a typical project or campaign take?",
       description:
-        "Depending on the services you require, our timelines range from 3 weeks to 12 weeks. We work on a monthly basis with a lot of our clients, let's hope we do the same for you!",
+        "Timelines vary based on project scope. Generally, digital campaigns take between 3 to 12 weeks from concept to launch, with clear milestones and regular updates along the way.",
       wrap: false,
     },
     {
       id: "4",
-      title: "How much do you charge?",
+      title: "How do you determine pricing for your services?",
       description:
-        "We work on project-cost pricing, which ensures we can amend the work to your vision without charging for extra hours (if required). Rest assured, we don't charge for the sake of it, we carefully analyze the problem, craft the solution, and then deploy our strategies within a budget that suits both parties.",
+        "Our pricing is project-based, reflecting the scope and complexity of your campaign. We work closely with you to ensure transparency and alignment with your budget and goals.",
       wrap: false,
     },
     {
       id: "5",
-      title:
-        "Do you offer ongoing support or maintenance for projects after completion?",
+      title: "What kind of post-launch support do you offer?",
       description:
-        "We offer web maintenance for our web projects, this will allow us to assist you with any updates you may have in the future on top of keeping you safe from any potential cyber-attacks. Whatever the project, we will always be here to help.",
+        "We offer comprehensive post-launch support including performance tracking, detailed analytics, and ongoing optimization to ensure your digital presence continues to thrive.",
       wrap: false,
     },
     {
       id: "6",
-      title:
-        "What sets your creative agency apart from others in the industry?",
+      title: "What sets KeyOn Media apart from other digital media agencies?",
       description:
-        "It's quite simple, the level of care and attention we give to all of our clients is second to none. We want YOU to succeed as badly as WE want to breathe.",
+        "Our commitment to client success is unmatched. We combine creative excellence with strategic insight, ensuring every campaign delivers measurable results and fosters a long-term partnership.",
       wrap: false,
     },
   ],
@@ -228,44 +226,44 @@ export const faqs = {
   creative: [
     {
       id: "1",
-      title: "How do I request a quote or estimate for a project?",
+      title: "How can I start a creative project with KeyOn Media?",
       description:
-        "Quite simply, scroll to the bottom of our site and submit your request!",
+        "Kickstart your creative journey by contacting us via our online form or by phone. We’ll schedule a consultation to understand your vision and requirements.",
       wrap: false,
     },
     {
       id: "2",
-      title: "What industries do you specialize in?",
+      title: "What type of creative projects do you specialize in?",
       description:
-        "Our bread & butter are FMCG brands. Spanning from drinks all the way to crackers, we have the the know-how to get you seen.",
+        "Our expertise ranges from promotional videos to advertising imagery. We craft content that not only captivates your audience but also drives engagement and builds brand loyalty.",
       wrap: false,
     },
     {
       id: "3",
-      title: "What is the typical timeline for project completion?",
+      title: "What is the typical turnaround time for creative projects?",
       description:
-        "Depending on the services you require, our timeline ranges from 2 to 6 weeks.",
+        "Our creative process is designed for efficiency without compromising quality. Most projects are completed within 2 to 6 weeks, depending on your specific needs.",
       wrap: false,
     },
     {
       id: "4",
-      title: "Does this stuff even work?",
-      description: "Well, we probably wouldn't be here if it didnt ...",
+      title: "How do you ensure quality and client satisfaction?",
+      description:
+        "Quality is our top priority. We maintain open communication throughout the project and offer revisions as needed to ensure the final output perfectly aligns with your vision.",
       wrap: false,
     },
     {
       id: "5",
-      title: "How much do you charge?",
+      title: "Do you provide measurable outcomes for creative campaigns?",
       description:
-        "We work on project-cost pricing, which ensures we can amend the work to your vision without charging for extra hours (if required). Rest assured, we don't charge for the sake of it, we carefully analyze the problem, craft the solution, and then deploy our strategies within a budget that suits both parties.",
+        "Absolutely. We integrate performance analytics into our creative campaigns, allowing you to track engagement and ROI, ensuring every creative effort contributes to your success.",
       wrap: false,
     },
     {
       id: "6",
-      title:
-        "What sets your creative agency apart from others in the industry?",
+      title: "Why should I choose KeyOn Media for my creative needs?",
       description:
-        "It's quite simple, the level of care and attention we give to all of our clients is second to none. We want YOU to succeed as badly as WE want to breathe",
+        "Our creative solutions are driven by a deep commitment to your brand's success. With innovative storytelling and a data-driven approach, we ensure your creative projects make a lasting impact.",
       wrap: false,
     },
   ],
@@ -278,18 +276,18 @@ export const contactFormText = {
   submitted:
     "Your connection means the world to us, and we can't wait to explore how we can make your experience even better. Whether you have questions, ideas, or just want to chat, we're here for you.",
   error: "Something went wrong, please try again.",
-  email: "hello@eltezza.com",
-  phone: "06 213 8994",
+  email: "keyonpublicity@gmail.com",
+  phone: "9920992393 / 9769987612",
 };
 
 export const socialLinks = {
-  facebook: "https://www.facebook.com/eltezzaltd",
-  instagram: "https://www.instagram.com/eltezzacreative/",
-  linkedin: "https://www.linkedin.com/company/eltezza/",
+  facebook: "#",
+  instagram: "#",
+  linkedin: "#",
 };
 
 export const privacyPolicy = {
-  introduction: `Eltezza ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information in accordance with New Zealand's Privacy Act 2020. By engaging with our services, you agree to the practices described in this policy.`,
+  introduction: `KeyOn Media Private Limited ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information in accordance with applicable Indian laws, including the Information Technology Act, 2000 and its associated rules. By engaging with our services, you agree to the practices described in this policy.`,
   infoWeCollect: {
     title: "Information We Collect",
     subTitle: "We may collect the following types of personal information:",
@@ -313,7 +311,7 @@ export const privacyPolicy = {
     title: "Use of Personal Information",
     subTitle: "We use your personal information for the following purposes:",
     info: [
-      "Service Delivery: To provide and manage our creative service",
+      "Service Delivery: To provide and manage our creative services.",
       "Communication: To respond to your inquiries, provide updates, and offer information about our services.",
       "Marketing: To send you promotional materials and other information that may be of interest to you.",
       "Improvement of Services: To analyze and improve our website and services.",
@@ -352,18 +350,18 @@ export const privacyPolicy = {
   contact: {
     title: "Contact Us",
     subTitle:
-      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:",
+      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at keyonpublicity@gmail.com, call 022-35980639, or visit us at B-006 Kinzah Apartment, Behind Raj Atlantis, Kanakia Road, Mira Road (East) 401107.",
     conclusion:
-      "Thank you for trusting Eltezza with your personal information. We are committed to protecting your privacy and providing you with the highest level of service.",
+      "Thank you for trusting KeyOn Media Private Limited with your personal information. We are committed to protecting your privacy and providing you with the highest level of service.",
   },
 };
 
 export const termsAndConditions = {
-  introduction: `Welcome to Eltezza ("we", "our", "us"). These Terms and Conditions ("Terms") govern your use of our website and services. By accessing or using our website and services, you agree to comply with and be bound by these Terms.`,
+  introduction: `Welcome to KeyOn Media Private Limited ("we", "our", "us"). These Terms and Conditions ("Terms") govern your use of our website and services. By accessing or using our website and services, you agree to comply with and be bound by these Terms.`,
   services: {
     title: "Services",
     description:
-      "Eltezza is a creative agency providing various services, including but not limited to branding, design, marketing, and digital solutions. The scope and specifics of the services will be detailed in individual contracts with our clients.",
+      "KeyOn Media Private Limited is a creative agency providing various services, including but not limited to branding, design, marketing, and digital solutions. The scope and specifics of the services will be detailed in individual contracts with our clients.",
   },
   useOfWebsite: {
     title: "Use of Our Website",
@@ -377,12 +375,12 @@ export const termsAndConditions = {
   intellectualProperty: {
     title: "Intellectual Property",
     description:
-      "All content on our website, including text, graphics, logos, images, and software, is the property of Eltezza or our licensors and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content without our prior written permission.",
+      "All content on our website, including text, graphics, logos, images, and software, is the property of KeyOn Media Private Limited or our licensors and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content without our prior written permission.",
   },
   userContent: {
     title: "User Content",
     description:
-      "If you submit any content to our website or services, including but not limited to comments, feedback, and suggestions, you grant Eltezza a non-exclusive, royalty-free, perpetual, and irrevocable license to use, reproduce, modify, and distribute such content in any form and media.",
+      "If you submit any content to our website or services, including but not limited to comments, feedback, and suggestions, you grant KeyOn Media Private Limited a non-exclusive, royalty-free, perpetual, and irrevocable license to use, reproduce, modify, and distribute such content in any form and media.",
   },
   confidentiality: {
     title: "Confidentiality",
@@ -397,7 +395,7 @@ export const termsAndConditions = {
   limitationLiability: {
     title: "Limitation of Liability",
     description:
-      "To the fullest extent permitted by law, Eltezza shall not be liable for any indirect, incidental, special, or consequential damages, including but not limited to loss of profits, revenue, data, or use, arising out of or in connection with our services or these Terms.",
+      "To the fullest extent permitted by law, KeyOn Media Private Limited shall not be liable for any indirect, incidental, special, or consequential damages, including but not limited to loss of profits, revenue, data, or use, arising out of or in connection with our services or these Terms.",
   },
   warranties: {
     title: "Warranties and Disclaimers",
@@ -411,7 +409,7 @@ export const termsAndConditions = {
   governingLaw: {
     title: "Governing Law",
     description:
-      "These Terms are governed by and construed in accordance with the laws of New Zealand. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of New Zealand.",
+      "These Terms are governed by and construed in accordance with the laws of India. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of India.",
   },
   changesToTerms: {
     title: "Changes to These Terms",
@@ -421,8 +419,8 @@ export const termsAndConditions = {
   contact: {
     title: "Contact Us",
     subTitle:
-      "If you have any questions or concerns about these Terms, please contact us at:",
+      "If you have any questions or concerns about these Terms, please contact us at keyonpublicity@gmail.com, call 022-35980639, or visit us at B-006 Kinzah Apartment, Behind Raj Atlantis, Kanakia Road, Mira Road (East) 401107.",
     conclusion:
-      "Thank you for choosing Eltezza. We look forward to providing you with exceptional creative services.",
+      "Thank you for choosing KeyOn Media Private Limited. We look forward to providing you with exceptional creative services.",
   },
 };

@@ -15,14 +15,14 @@ export function Brands({ content, columns }: BrandsProps) {
     if (windowWidth > 500) {
       return maxWidth;
     } else if (maxWidth) {
-      return maxWidth * 0.7;
-    } else return 150 * 0.7;
+      return maxWidth * 0.5;
+    } else return 150 * 0.5;
   }
   return (
     <section id="clients" className={styles.brandsSection}>
       <h1 className={classNames("largeText", styles.brandsTitle)}>
         OUR TRUSTED <br className={styles.titleBreak} />{" "}
-        <span className="textGradient">PARTNERS</span>
+        <span className="textGradient">CLIENTS</span>
       </h1>
       <div
         className={classNames(
@@ -37,7 +37,7 @@ export function Brands({ content, columns }: BrandsProps) {
             src={brand.src}
             alt={brand.brand}
             width={brand.maxWidth || 150}
-            height={150}
+            height={windowWidth>500 ? 180 : 90 }
             style={{
               maxWidth: getMaxWidth(brand.maxWidth),
               width: brand.width,
