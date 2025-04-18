@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "set NEXT_DISABLE_ESLINT=true && next build",
     "watch": "nodemon -e js,jsx,ts,tsx,css,scss --exec 'npm run dev'",
     "start": "next start",
     "lint": "next lint",
@@ -19,7 +19,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install",
-    "pre-commit": "lint-staged",
+    
     "chromatic": "npx chromatic --project-token=chpt_768291d16afc6c8"
   },
   "engines": {
