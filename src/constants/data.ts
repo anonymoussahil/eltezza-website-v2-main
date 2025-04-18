@@ -929,24 +929,24 @@ export const btsData = {
     {
       id: "1",
       src:
-        distributionName + "/BrandWork/team2.png",
-      placeholder: distributionName + "/BrandWork/team2.png",
+        distributionName + "/Brandwork/team2.png",
+      placeholder: distributionName + "/Brandwork/team2.png",
       alt: "Team Posing for a collaboration",
       isVideo: false,
     },
     {
       id: "2",
       src:
-        distributionName + "/BrandWork/team1.jpg",
-      placeholder: distributionName + "/BrandWork/team1.jpg",
+        distributionName + "/Brandwork/team1.jpg",
+      placeholder: distributionName + "/Brandwork/team1.jpg",
       alt: "Team discussion for a strategy",
       isVideo: false,
     },
     {
       id: "3",
       src:
-        distributionName + "/BrandWork/team3.png",
-      placeholder: distributionName + "/BrandWork/team3.png",
+        distributionName + "/Brandwork/team3.png",
+      placeholder: distributionName + "/Brandwork/team3.png",
       alt: "Team identifying challenges",
       isVideo: false,
     },
